@@ -1,0 +1,197 @@
+---
+title: "CodeBook"
+author: "katayoon moazzami"
+date: "Friday, April 24, 2015"
+output: html_document
+---
+
+This R Markdown document describes all the variables and summaries calculated for the course project, along with units, and any other relevant information.
+
+The following variables are included in the final tidy data file (tidyData.txt) available in my Github repository.For further information on how the analysis please refer to the README,txt document.
+
+**activity_id** 
+The id associated with each activity.
+
+**subject_id**
+An identifier of the subject who carried out the experiment.
+
+**activity_label**
+The label assigned to each activity (basically what activity they were performing).
+
+The course project data is based on the experiments that have been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING _ UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a Samsung Galaxy S II smartphone on their waist. Using its embedded accelerometer and gyroscope, the 3-axial linear acceleration and 3-axial angular velocity were recorded at a constant rate of 50Hz and resulted in the following measurements which are **normalized and bounded within [-1,1].** for more information on these measurements please refer to the features _info.txt file.
+
+**tBodyAcc-mean-X**
+Triaxial body acceleration mean along X axis.
+
+**tBodyAcc-mean-Y**
+Triaxial body acceleration mean along Y axis.
+
+**tBodyAcc-mean-Z**
+Triaxial body acceleration mean along Z axis.
+
+**tBodyAcc-std-X**
+Triaxial body acceleration standard deviation along X axis.
+
+**tBodyAcc-std-Y**
+Triaxial body acceleration standard deviation along Y axis.
+
+**tBodyAcc-std-Z**
+Triaxial body acceleration standard deviation along Z axis.
+
+**tGravityAcc-mean-X**
+Triaxial gravity acceleration mean along X axis.
+
+**tGravityAcc-mean-Y**
+Triaxial gravity acceleration mean along Y axis.
+
+**tGravityAcc-mean-Z**
+Triaxial gravity acceleration mean along X axis.
+
+**tGravityAcc-std-X**
+Triaxial gravity acceleration standard deviation along X axis.
+
+**tGravityAcc-std-Y**
+Triaxial gravity acceleration standard deviation along Y axis.
+
+**tGravityAcc-std-Z** 
+Triaxial gravity acceleration standard deviation along Z axis.
+
+**tBodyAccJerk-mean-X**
+Triaxial body acceleration Jerk mean along X axis.
+
+**tBodyAccJerk-mean-Y**
+Triaxial body acceleration Jerk mean along Y axis.
+
+**tBodyAccJerk-mean-Z** 
+Triaxial body acceleration Jerk mean along Z axis.
+
+**tBodyAccJerk-std-X**
+Triaxial body acceleration Jerk standard deviation along X axis.
+
+ **tBodyAccJerk-std-Y** 
+ Triaxial body acceleration Jerk standard deviation along Y axis.
+ 
+**tBodyAccJerk-std-Z**
+Triaxial body acceleration Jerk standard deviation along Z axis.
+
+**tBodyGyro-mean-X**
+Triaxial body gyroscopic mean along X axis.
+
+ **tBodyGyro-mean-Y**
+ Triaxial body gyroscopic mean along Y axis.
+ 
+ **tBodyGyro-mean-Z**
+ Triaxial body gyroscopic mean along Z axis.
+ 
+ **tBodyGyro-std-X**
+ Triaxial body gyroscopic standard deviation along X axis.
+ 
+ **tBodyGyro-std-Y** 
+ Triaxial body gyroscopic standard deviation along Y axis.
+ 
+**tBodyGyro-std-Z**
+Triaxial body gyroscopic standard deviation along Z axis.
+
+ **tBodyGyroJerk-mean-X** 
+ Triaxial body gyroscopic Jerk mean along X axis.
+ 
+**tBodyGyroJerk-mean-Y** 
+Triaxial body gyroscopic Jerk mean along Y axis.
+
+**tBodyGyroJerk-mean-Z**
+Triaxial body gyroscopic Jerk mean along Z axis.
+
+ **tBodyGyroJerk-std-X**
+ Triaxial body gyroscopic Jerk standard deviation along X axis.
+ 
+ **tBodyGyroJerk-std-Y** 
+ Triaxial body gyroscopic Jerk standard deviation along Y axis.
+ 
+**tBodyGyroJerk-std-Z**
+Triaxial body gyroscopic Jerk standard deviation along Z axis.
+
+ **tBodyAccMag-mean** 
+ Triaxial body acceleration magnitude mean.
+ 
+**tBodyAccMag-std**
+Triaxial body acceleration magnitude standard deviation.
+
+ **tGravityAccMag-mean**
+ Triaxial body gravity acceleration  magnitude mean.
+ 
+ **tGravityAccMag-std**
+ Triaxial body gravity acceleration  magnitude standard deviation.
+ 
+ **tBodyAccJerkMag-mean**
+ Triaxial body acceleration Jerk magnitude mean.
+ 
+ **tBodyAccJerkMag-std**
+ Triaxial body acceleration Jerk magnitude standard deviation.
+ 
+ **tBodyGyroMag-mean** 
+ Triaxial body gyroscopic magnitude mean.
+ 
+**tBodyGyroMag-std**
+Triaxial body gyroscopic magnitude standard deviation.
+
+ **tBodyGyroJerkMag-mean**
+ Triaxial body gyroscopic Jerk mean.
+ 
+ **tBodyGyroJerkMag-std**
+ Triaxial body gyroscopic Jerk standard deviation.
+ 
+The following measurements are the result of applying a Fast Fourier Transform to the measurements described above. For example **fBodyAcc-mean-X** would be the result of application of the Fast Fourier Transform to the **tBodyAcc-mean-X** (i.e.,the Triaxial body acceleration mean along X axis).
+
+**fBodyAcc-mean-X** 
+
+**fBodyAcc-mean-Y**
+
+ **fBodyAcc-mean-Z** 
+ 
+**fBodyAcc-std-X**
+
+ **fBodyAcc-std-Y** 
+ 
+**fBodyAcc-std-Z**
+
+ **fBodyAccJerk-mean-X** 
+ 
+**fBodyAccJerk-mean-Y**
+
+ **fBodyAccJerk-mean-Z**
+ 
+ **fBodyAccJerk-std-X**
+ 
+ **fBodyAccJerk-std-Y** 
+ 
+**fBodyAccJerk-std-Z**
+
+ **fBodyGyro-mean-X** 
+ 
+**fBodyGyro-mean-Y**
+
+ **fBodyGyro-mean-Z**
+ 
+**fBodyGyro-std-X**
+
+ **fBodyGyro-std-Y**
+ 
+ **fBodyGyro-std-Z** 
+ 
+**fBodyAccMag-mean** 
+
+**fBodyAccMag-std**
+
+ **fBodyBodyAccJerkMag-mean**
+ 
+ **fBodyBodyAccJerkMag-std**
+ 
+ **fBodyBodyGyroMag-mean** 
+ 
+**fBodyBodyGyroMag-std** 
+
+**fBodyBodyGyroJerkMag-mean**
+
+ **fBodyBodyGyroJerkMag-std**
+ 
+
